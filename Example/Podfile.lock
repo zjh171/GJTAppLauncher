@@ -1,5 +1,5 @@
 PODS:
-  - GJTAppLauncher (0.1.0)
+  - GJTAppLauncher (0.1.1)
 
 DEPENDENCIES:
   - GJTAppLauncher (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GJTAppLauncher: 32c131e516621d842a094896475d03df71763c93
+  GJTAppLauncher: e88cce4c458e55b1e61ca2dbd94e01ee122adc5d
 
 PODFILE CHECKSUM: 7a83d111fe86841e8d59e41aa10174daab11ae17
 

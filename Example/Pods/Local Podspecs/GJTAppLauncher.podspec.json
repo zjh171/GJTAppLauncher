@@ -1,8 +1,8 @@
 {
   "name": "GJTAppLauncher",
-  "version": "0.1.0",
-  "summary": "A short description of GJTAppLauncher.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "Gojito 的启动器",
+  "description": "Gojito 的启动器，用于处理启动器。",
   "homepage": "https://github.com/zjh171/GJTAppLauncher",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zjh171/GJTAppLauncher.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

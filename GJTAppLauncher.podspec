@@ -31,7 +31,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'GJTAppLauncher/Classes/**/*'
-  
+  s.requires_arc = true
+  s.static_framework = true
+
   # s.resource_bundles = {
   #   'GJTAppLauncher' => ['GJTAppLauncher/Assets/*.png']
   # }

@@ -10,6 +10,14 @@
 #endif
 #endif
 
+#import "GJTAppLauncherAnnotation.h"
+#import "GJTRuleAtom.h"
+#import "GJTRuleSyncChain+RuleSyncAtom.h"
+#import "GJTRuleSyncChain.h"
+#import "GJTRuleSyncChainMacro.h"
+#import "GJTAppLauncher.h"
+#import "GJTAppHPLauncher.h"
+#import "GJTAppLauncherItems.h"
 
 FOUNDATION_EXPORT double GJTAppLauncherVersionNumber;
 FOUNDATION_EXPORT const unsigned char GJTAppLauncherVersionString[];

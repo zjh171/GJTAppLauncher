@@ -7,27 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E7F16140FBA70496CB0509CA3527565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1CF0B91F06080AB5358111EF7D7D81A5 /* GJTRuleAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F7C539C5F59B0559951CB77D1C28E /* GJTRuleAtom.m */; };
+		1FC3FF0DAF20AF717BAE30DB78E4260A /* GJTAppLauncher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECADC402092B72797177977E0E6F4660 /* GJTAppLauncher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E6883B73E62C87E5CAAEDF53FB54BFC /* GJTAppLauncherItems.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF1BA7A3CD31BBB2E5B4A04BEA245FE /* GJTAppLauncherItems.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		406457E3B89E54F9F4BB744E8530C0EC /* GJTRuleSyncChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 97946E05E4F115330D0589854E3BE023 /* GJTRuleSyncChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467A4BD3DE758CAFDE67B2013951BA1F /* GJTRuleSyncChainMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 96314E3D9AE379771C346AD33F9A6EF5 /* GJTRuleSyncChainMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		469443AFE76B1F97E54E24CDCE68A366 /* GJTRuleSyncChain+RuleSyncAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F709CED0C7845C098ECEED2D86734A4 /* GJTRuleSyncChain+RuleSyncAtom.m */; };
 		4D881B86110ECD0498C0B434C511BA5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5105AAEBAD931AEA560D7ED48FB9AA23 /* GJTRuleAtom.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BA8DB3B75710291EABFEB079CD4B89D /* GJTRuleAtom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		588239C6BFEE4C61FC9855686FAB79BB /* Pods-GJTAppLauncher_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 654E7A5A062816A86B49AA6729D42585 /* Pods-GJTAppLauncher_Tests-dummy.m */; };
+		716E9F29384824143654A741879929F0 /* GJTAppLauncherAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AD82BE2ABCE0F6C3CACBAAF1BC8DFF /* GJTAppLauncherAnnotation.m */; };
+		71D10C9767535F2F714FCC36E892D0D2 /* GJTAppLauncher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAF062B5767C20636D23171FC0F236E /* GJTAppLauncher-dummy.m */; };
+		83B03E23D852C34A25D3EBC1A5C00C48 /* GJTAppLauncherAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C23D101A6D0F24F2DFC3013B8674AD /* GJTAppLauncherAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83FADDEF2CDD661400F47912288C7AEE /* GJTAppLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8B7FDBFE3E05A74268077A0C21CA86 /* GJTAppLauncher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955CBDFCF56CC4141DDC049C7F84C4A1 /* GJTAppHPLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A8046C5BBB1F2AB0446F03F659BD1F /* GJTAppHPLauncher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6A797C8BBE9760017262A5CFC949074 /* GJTAppLauncherItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CBC153DB13C56D2EB39C69849B63B7 /* GJTAppLauncherItems.m */; };
+		A9361E204C15B9E31357D7C3F1F468AA /* GJTRuleSyncChain+RuleSyncAtom.h in Headers */ = {isa = PBXBuildFile; fileRef = 564E716C250F6BAC3BEA708952B1D726 /* GJTRuleSyncChain+RuleSyncAtom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BACB592DB4ADD726C44830B016828A0C /* Pods-GJTAppLauncher_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F4939B7A9C6A35E09299CBE50177F /* Pods-GJTAppLauncher_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C34A37B6047BA791266378ED489EDA11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C769B4B2A935C5A4DF4A6F53165ADAC2 /* Pods-GJTAppLauncher_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 303F9D6E3AA6F0E759CDB3BC8EED8F5F /* Pods-GJTAppLauncher_Example-dummy.m */; };
-		D373E1B7252DD6AEC9FC10866FD4407E /* GJTAppLauncher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC14E11BFBD294B8B095939F88CEB0F /* GJTAppLauncher-dummy.m */; };
+		D87AD06C70E87B6509F9D8E71894761E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E47AB45C041C937BF14CE2EB89CF5048 /* Pods-GJTAppLauncher_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 776D2701B1DFE96B4A97BAA9B037F7BC /* Pods-GJTAppLauncher_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE28C054C7EC7D87D5E9A7CE660308F5 /* GJTAppLauncher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3ADB4577CC51A3DE054C91D26A17F03 /* GJTAppLauncher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA9229191BB49D095CE789D9F6E0EB34 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 425479A53FB10D409BC2200663DE55DF /* ReplaceMe.m */; };
+		F09B021992D084557B73B945416CEA4A /* GJTRuleSyncChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7812124261BD7B71CA0B8B289DF68A8C /* GJTRuleSyncChain.m */; };
+		F8A8F1EA541474E1F7D6A8036ABF0B1A /* GJTAppHPLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 040088F414E4F2AED2F3033A836953C2 /* GJTAppHPLauncher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EAF1D13E17197874A82BE110F678E43 /* PBXContainerItemProxy */ = {
+		6492141E668BAF98D853D094BBE0750C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 192CD41189877BC9B962E9F52EDD4A21;
 			remoteInfo = "Pods-GJTAppLauncher_Example";
 		};
-		69F0CB74844E56B206BBEED49409F957 /* PBXContainerItemProxy */ = {
+		AEDD0BEF2BA8D1EF3A6F6672FE55F1E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,50 +50,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D49523C527057A5E5F4729EA9641C8 /* GJTAppLauncher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GJTAppLauncher.modulemap; sourceTree = "<group>"; };
-		1715BDA339E0E0B49166F9EF6BAD6AE2 /* GJTAppLauncher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GJTAppLauncher.framework; path = GJTAppLauncher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		040088F414E4F2AED2F3033A836953C2 /* GJTAppHPLauncher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJTAppHPLauncher.m; sourceTree = "<group>"; };
+		1715BDA339E0E0B49166F9EF6BAD6AE2 /* GJTAppLauncher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GJTAppLauncher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E23C64E8B8F0489E00928DC087B239C /* Pods-GJTAppLauncher_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GJTAppLauncher_Tests.modulemap"; sourceTree = "<group>"; };
-		286DB1C94EAE7939A47D6F91E1D92F3D /* GJTAppLauncher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTAppLauncher-prefix.pch"; sourceTree = "<group>"; };
+		22AD82BE2ABCE0F6C3CACBAAF1BC8DFF /* GJTAppLauncherAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJTAppLauncherAnnotation.m; sourceTree = "<group>"; };
 		2B6AA2BAF4C16BA46766781CB469D567 /* Pods-GJTAppLauncher_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GJTAppLauncher_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2E29138C77AD9F462D1A8AF33BC0FCA7 /* Pods-GJTAppLauncher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTAppLauncher_Example.release.xcconfig"; sourceTree = "<group>"; };
 		303F9D6E3AA6F0E759CDB3BC8EED8F5F /* Pods-GJTAppLauncher_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJTAppLauncher_Example-dummy.m"; sourceTree = "<group>"; };
+		325CB64AA644A33CA913EFDD4A341F24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F709CED0C7845C098ECEED2D86734A4 /* GJTRuleSyncChain+RuleSyncAtom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJTRuleSyncChain+RuleSyncAtom.m"; sourceTree = "<group>"; };
 		41AB95899B34D2F7AC8D5026B578483F /* Pods-GJTAppLauncher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTAppLauncher_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4228174D1E22BF9B19A8FB0C2DA69541 /* Pods-GJTAppLauncher_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTAppLauncher_Tests-Info.plist"; sourceTree = "<group>"; };
-		425479A53FB10D409BC2200663DE55DF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GJTAppLauncher/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		451B85CA023E035201686C930327950D /* Pods-GJTAppLauncher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTAppLauncher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		49666398A69846930723C69EB1B7A930 /* GJTAppLauncher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GJTAppLauncher.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5026949C24D4E6A1239016ECE9DC1174 /* Pods-GJTAppLauncher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTAppLauncher_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		564E716C250F6BAC3BEA708952B1D726 /* GJTRuleSyncChain+RuleSyncAtom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTRuleSyncChain+RuleSyncAtom.h"; sourceTree = "<group>"; };
+		590C560767C8AB8969D2775B852A2AA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5AF1BA7A3CD31BBB2E5B4A04BEA245FE /* GJTAppLauncherItems.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJTAppLauncherItems.h; sourceTree = "<group>"; };
 		654E7A5A062816A86B49AA6729D42585 /* Pods-GJTAppLauncher_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJTAppLauncher_Tests-dummy.m"; sourceTree = "<group>"; };
+		6BA8DB3B75710291EABFEB079CD4B89D /* GJTRuleAtom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJTRuleAtom.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75E9329657DB2C132B75FBE65FAA0727 /* GJTAppLauncher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GJTAppLauncher-Info.plist"; sourceTree = "<group>"; };
 		776D2701B1DFE96B4A97BAA9B037F7BC /* Pods-GJTAppLauncher_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GJTAppLauncher_Example-umbrella.h"; sourceTree = "<group>"; };
+		7812124261BD7B71CA0B8B289DF68A8C /* GJTRuleSyncChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJTRuleSyncChain.m; sourceTree = "<group>"; };
 		7B425E6841B10EA51AA4563DF59FDE6D /* Pods-GJTAppLauncher_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTAppLauncher_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		868640CF00343989323E047B8F26688C /* GJTAppLauncher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTAppLauncher.release.xcconfig; sourceTree = "<group>"; };
 		87C9871BBAF27B930CB09AC315310D5C /* Pods-GJTAppLauncher_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJTAppLauncher_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		891D73EFE2F4DFF19E4E4F6AF467D58E /* Pods_GJTAppLauncher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GJTAppLauncher_Tests.framework; path = "Pods-GJTAppLauncher_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		891D73EFE2F4DFF19E4E4F6AF467D58E /* Pods_GJTAppLauncher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJTAppLauncher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C23D101A6D0F24F2DFC3013B8674AD /* GJTAppLauncherAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJTAppLauncherAnnotation.h; sourceTree = "<group>"; };
 		8B47B6A774EEE3A8707063FB8734A04D /* Pods-GJTAppLauncher_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJTAppLauncher_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		968D3DC00E8CFF76C98649480BA6C0B6 /* GJTAppLauncher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GJTAppLauncher.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96314E3D9AE379771C346AD33F9A6EF5 /* GJTRuleSyncChainMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJTRuleSyncChainMacro.h; sourceTree = "<group>"; };
+		97946E05E4F115330D0589854E3BE023 /* GJTRuleSyncChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJTRuleSyncChain.h; sourceTree = "<group>"; };
 		9D0F4939B7A9C6A35E09299CBE50177F /* Pods-GJTAppLauncher_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GJTAppLauncher_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E210981F7703F9776F658646084BA8B /* GJTAppLauncher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTAppLauncher.debug.xcconfig; sourceTree = "<group>"; };
 		A90AB04F19AD92F787A1C4593E32F13F /* Pods-GJTAppLauncher_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTAppLauncher_Example-Info.plist"; sourceTree = "<group>"; };
-		AC1C1CAF90816858FA2C101FE55AD834 /* GJTAppLauncher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GJTAppLauncher-Info.plist"; sourceTree = "<group>"; };
-		B3ADB4577CC51A3DE054C91D26A17F03 /* GJTAppLauncher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTAppLauncher-umbrella.h"; sourceTree = "<group>"; };
-		BAC14E11BFBD294B8B095939F88CEB0F /* GJTAppLauncher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJTAppLauncher-dummy.m"; sourceTree = "<group>"; };
-		C70D2D3EEAB7656B1B1C930ABD34425F /* Pods_GJTAppLauncher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GJTAppLauncher_Example.framework; path = "Pods-GJTAppLauncher_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBFA3E60E4445CCF56C96A5635718EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D613A49ACCAC6C3C96BFCB9B076EF1AB /* GJTAppLauncher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTAppLauncher.debug.xcconfig; sourceTree = "<group>"; };
+		B227F594AFD4BF9A6C6CC9F31DA45916 /* GJTAppLauncher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTAppLauncher-prefix.pch"; sourceTree = "<group>"; };
+		BEAF062B5767C20636D23171FC0F236E /* GJTAppLauncher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJTAppLauncher-dummy.m"; sourceTree = "<group>"; };
+		C1A8046C5BBB1F2AB0446F03F659BD1F /* GJTAppHPLauncher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJTAppHPLauncher.h; sourceTree = "<group>"; };
+		C70D2D3EEAB7656B1B1C930ABD34425F /* Pods_GJTAppLauncher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJTAppLauncher_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98EEF829D1BE4FCEB2F4AB0E653B48B /* GJTAppLauncher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GJTAppLauncher.modulemap; sourceTree = "<group>"; };
+		DB8B7FDBFE3E05A74268077A0C21CA86 /* GJTAppLauncher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTAppLauncher.h; path = GJTAppLauncher/Classes/GJTAppLauncher.h; sourceTree = "<group>"; };
 		DC6F2B4261907EEED94A729BE67D975B /* Pods-GJTAppLauncher_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GJTAppLauncher_Example.modulemap"; sourceTree = "<group>"; };
-		E16F446EE8F4E4FCE191E491764415C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E9CBC153DB13C56D2EB39C69849B63B7 /* GJTAppLauncherItems.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJTAppLauncherItems.m; sourceTree = "<group>"; };
+		ECADC402092B72797177977E0E6F4660 /* GJTAppLauncher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTAppLauncher-umbrella.h"; sourceTree = "<group>"; };
 		EF61E0C357E4BA4981C72287E0EC2409 /* Pods-GJTAppLauncher_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTAppLauncher_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F126DA236A8D212106976B38F9FFF752 /* GJTAppLauncher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTAppLauncher.release.xcconfig; sourceTree = "<group>"; };
+		F49F7C539C5F59B0559951CB77D1C28E /* GJTRuleAtom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJTRuleAtom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DC38E9047289A81D35DBE3C96345CE3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E7F16140FBA70496CB0509CA3527565 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6F7F4FA1544E295D5694B06AB5F82CB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,17 +115,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2F3435C3F1949586C897E024EFF2951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87AD06C70E87B6509F9D8E71894761E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24FB68D16EC326BABC8D4128E68F1AE5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				66101BD304495FA4D21D9ED4B01A2B73 /* GJTAppLauncher */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		43DDF1324536DAD0DD42D736C3655B08 /* Pods-GJTAppLauncher_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,15 +150,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		66101BD304495FA4D21D9ED4B01A2B73 /* GJTAppLauncher */ = {
+		58A0E2093A608A5E3897A44DB659F439 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				425479A53FB10D409BC2200663DE55DF /* ReplaceMe.m */,
-				B5EB65C44E8296B415E4E612159FD25D /* Pod */,
-				73946DB039C6E3965BDC5DD18C8A62F4 /* Support Files */,
+				49666398A69846930723C69EB1B7A930 /* GJTAppLauncher.podspec */,
+				590C560767C8AB8969D2775B852A2AA4 /* LICENSE */,
+				325CB64AA644A33CA913EFDD4A341F24 /* README.md */,
 			);
-			name = GJTAppLauncher;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		66475DFC08E4A2F5F483BAABDF1D5CEB /* Anotation */ = {
+			isa = PBXGroup;
+			children = (
+				89C23D101A6D0F24F2DFC3013B8674AD /* GJTAppLauncherAnnotation.h */,
+				22AD82BE2ABCE0F6C3CACBAAF1BC8DFF /* GJTAppLauncherAnnotation.m */,
+			);
+			name = Anotation;
+			path = GJTAppLauncher/Classes/Anotation;
 			sourceTree = "<group>";
 		};
 		66DE0089525141234913573E185EFEE7 /* Products */ = {
@@ -170,29 +197,31 @@
 			path = "Target Support Files/Pods-GJTAppLauncher_Example";
 			sourceTree = "<group>";
 		};
-		73946DB039C6E3965BDC5DD18C8A62F4 /* Support Files */ = {
+		BDBC7DC3E05B3AF9C9ED9F5DB1245411 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				01D49523C527057A5E5F4729EA9641C8 /* GJTAppLauncher.modulemap */,
-				BAC14E11BFBD294B8B095939F88CEB0F /* GJTAppLauncher-dummy.m */,
-				AC1C1CAF90816858FA2C101FE55AD834 /* GJTAppLauncher-Info.plist */,
-				286DB1C94EAE7939A47D6F91E1D92F3D /* GJTAppLauncher-prefix.pch */,
-				B3ADB4577CC51A3DE054C91D26A17F03 /* GJTAppLauncher-umbrella.h */,
-				D613A49ACCAC6C3C96BFCB9B076EF1AB /* GJTAppLauncher.debug.xcconfig */,
-				868640CF00343989323E047B8F26688C /* GJTAppLauncher.release.xcconfig */,
+				C98EEF829D1BE4FCEB2F4AB0E653B48B /* GJTAppLauncher.modulemap */,
+				BEAF062B5767C20636D23171FC0F236E /* GJTAppLauncher-dummy.m */,
+				75E9329657DB2C132B75FBE65FAA0727 /* GJTAppLauncher-Info.plist */,
+				B227F594AFD4BF9A6C6CC9F31DA45916 /* GJTAppLauncher-prefix.pch */,
+				ECADC402092B72797177977E0E6F4660 /* GJTAppLauncher-umbrella.h */,
+				9E210981F7703F9776F658646084BA8B /* GJTAppLauncher.debug.xcconfig */,
+				F126DA236A8D212106976B38F9FFF752 /* GJTAppLauncher.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GJTAppLauncher";
 			sourceTree = "<group>";
 		};
-		B5EB65C44E8296B415E4E612159FD25D /* Pod */ = {
+		C07B9516302E64A8BFB4242A4FBDAC36 /* Launcher */ = {
 			isa = PBXGroup;
 			children = (
-				968D3DC00E8CFF76C98649480BA6C0B6 /* GJTAppLauncher.podspec */,
-				CBFA3E60E4445CCF56C96A5635718EFC /* LICENSE */,
-				E16F446EE8F4E4FCE191E491764415C4 /* README.md */,
+				C1A8046C5BBB1F2AB0446F03F659BD1F /* GJTAppHPLauncher.h */,
+				040088F414E4F2AED2F3033A836953C2 /* GJTAppHPLauncher.m */,
+				5AF1BA7A3CD31BBB2E5B4A04BEA245FE /* GJTAppLauncherItems.h */,
+				E9CBC153DB13C56D2EB39C69849B63B7 /* GJTAppLauncherItems.m */,
 			);
-			name = Pod;
+			name = Launcher;
+			path = GJTAppLauncher/Classes/Launcher;
 			sourceTree = "<group>";
 		};
 		CC5965EBAD77BFABBF285215062DA4FC /* Targets Support Files */ = {
@@ -208,7 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				24FB68D16EC326BABC8D4128E68F1AE5 /* Development Pods */,
+				F9CA58CBB406D33DE95C19A29B7BEA2A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				66DE0089525141234913573E185EFEE7 /* Products */,
 				CC5965EBAD77BFABBF285215062DA4FC /* Targets Support Files */,
@@ -223,9 +252,62 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D57429FD61908AC0A17DB3B5CCBF3147 /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				6BA8DB3B75710291EABFEB079CD4B89D /* GJTRuleAtom.h */,
+				F49F7C539C5F59B0559951CB77D1C28E /* GJTRuleAtom.m */,
+				97946E05E4F115330D0589854E3BE023 /* GJTRuleSyncChain.h */,
+				7812124261BD7B71CA0B8B289DF68A8C /* GJTRuleSyncChain.m */,
+				564E716C250F6BAC3BEA708952B1D726 /* GJTRuleSyncChain+RuleSyncAtom.h */,
+				3F709CED0C7845C098ECEED2D86734A4 /* GJTRuleSyncChain+RuleSyncAtom.m */,
+				96314E3D9AE379771C346AD33F9A6EF5 /* GJTRuleSyncChainMacro.h */,
+			);
+			name = Chain;
+			path = GJTAppLauncher/Classes/Chain;
+			sourceTree = "<group>";
+		};
+		DF4D8B43D46A69C46B3422A470BF740E /* GJTAppLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				DB8B7FDBFE3E05A74268077A0C21CA86 /* GJTAppLauncher.h */,
+				66475DFC08E4A2F5F483BAABDF1D5CEB /* Anotation */,
+				D57429FD61908AC0A17DB3B5CCBF3147 /* Chain */,
+				C07B9516302E64A8BFB4242A4FBDAC36 /* Launcher */,
+				58A0E2093A608A5E3897A44DB659F439 /* Pod */,
+				BDBC7DC3E05B3AF9C9ED9F5DB1245411 /* Support Files */,
+			);
+			name = GJTAppLauncher;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F9CA58CBB406D33DE95C19A29B7BEA2A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D8B43D46A69C46B3422A470BF740E /* GJTAppLauncher */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4D147A3DE528D1E039D14BB12AF4D4A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955CBDFCF56CC4141DDC049C7F84C4A1 /* GJTAppHPLauncher.h in Headers */,
+				1FC3FF0DAF20AF717BAE30DB78E4260A /* GJTAppLauncher-umbrella.h in Headers */,
+				83FADDEF2CDD661400F47912288C7AEE /* GJTAppLauncher.h in Headers */,
+				83B03E23D852C34A25D3EBC1A5C00C48 /* GJTAppLauncherAnnotation.h in Headers */,
+				3E6883B73E62C87E5CAAEDF53FB54BFC /* GJTAppLauncherItems.h in Headers */,
+				5105AAEBAD931AEA560D7ED48FB9AA23 /* GJTRuleAtom.h in Headers */,
+				A9361E204C15B9E31357D7C3F1F468AA /* GJTRuleSyncChain+RuleSyncAtom.h in Headers */,
+				406457E3B89E54F9F4BB744E8530C0EC /* GJTRuleSyncChain.h in Headers */,
+				467A4BD3DE758CAFDE67B2013951BA1F /* GJTRuleSyncChainMacro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C65F4CBB0109E6C93A3ACAF4E9DFC2B2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,14 +321,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E47AB45C041C937BF14CE2EB89CF5048 /* Pods-GJTAppLauncher_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEC202774EB70A3C21F44711E6A05723 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE28C054C7EC7D87D5E9A7CE660308F5 /* GJTAppLauncher-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +339,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D281B02064675BBB7FDFE3C50586F881 /* PBXTargetDependency */,
+				B83B6604D4F911D88D6B93B834F1390F /* PBXTargetDependency */,
 			);
 			name = "Pods-GJTAppLauncher_Example";
 			productName = "Pods-GJTAppLauncher_Example";
@@ -274,12 +348,12 @@
 		};
 		409F6171F94B4B0582ABF5765E0557BC /* GJTAppLauncher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FAB8ACF18146D9D045EDBB0315C98B9 /* Build configuration list for PBXNativeTarget "GJTAppLauncher" */;
+			buildConfigurationList = 2A2DEE151A4B000D95F080805B966E97 /* Build configuration list for PBXNativeTarget "GJTAppLauncher" */;
 			buildPhases = (
-				DEC202774EB70A3C21F44711E6A05723 /* Headers */,
-				08560286BDD81EF8C878BA882E53AE46 /* Sources */,
-				6DC38E9047289A81D35DBE3C96345CE3 /* Frameworks */,
-				14A86F9E3E013AB8748D0A0C571FAB95 /* Resources */,
+				4D147A3DE528D1E039D14BB12AF4D4A2 /* Headers */,
+				961756006DADC25972032094FCFC7F14 /* Sources */,
+				D2F3435C3F1949586C897E024EFF2951 /* Frameworks */,
+				4CCA064FC9A25238A3DCA9888A391913 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +376,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F99C50EAB84B3EF646635AD341818166 /* PBXTargetDependency */,
+				1961F0D61C39B05A60E0E93CB0F6224B /* PBXTargetDependency */,
 			);
 			name = "Pods-GJTAppLauncher_Tests";
 			productName = "Pods-GJTAppLauncher_Tests";
@@ -339,7 +413,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14A86F9E3E013AB8748D0A0C571FAB95 /* Resources */ = {
+		4CCA064FC9A25238A3DCA9888A391913 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +437,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08560286BDD81EF8C878BA882E53AE46 /* Sources */ = {
+		961756006DADC25972032094FCFC7F14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D373E1B7252DD6AEC9FC10866FD4407E /* GJTAppLauncher-dummy.m in Sources */,
-				FA9229191BB49D095CE789D9F6E0EB34 /* ReplaceMe.m in Sources */,
+				F8A8F1EA541474E1F7D6A8036ABF0B1A /* GJTAppHPLauncher.m in Sources */,
+				71D10C9767535F2F714FCC36E892D0D2 /* GJTAppLauncher-dummy.m in Sources */,
+				716E9F29384824143654A741879929F0 /* GJTAppLauncherAnnotation.m in Sources */,
+				A6A797C8BBE9760017262A5CFC949074 /* GJTAppLauncherItems.m in Sources */,
+				1CF0B91F06080AB5358111EF7D7D81A5 /* GJTRuleAtom.m in Sources */,
+				469443AFE76B1F97E54E24CDCE68A366 /* GJTRuleSyncChain+RuleSyncAtom.m in Sources */,
+				F09B021992D084557B73B945416CEA4A /* GJTRuleSyncChain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +470,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D281B02064675BBB7FDFE3C50586F881 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GJTAppLauncher;
-			target = 409F6171F94B4B0582ABF5765E0557BC /* GJTAppLauncher */;
-			targetProxy = 69F0CB74844E56B206BBEED49409F957 /* PBXContainerItemProxy */;
-		};
-		F99C50EAB84B3EF646635AD341818166 /* PBXTargetDependency */ = {
+		1961F0D61C39B05A60E0E93CB0F6224B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GJTAppLauncher_Example";
 			target = 192CD41189877BC9B962E9F52EDD4A21 /* Pods-GJTAppLauncher_Example */;
-			targetProxy = 0EAF1D13E17197874A82BE110F678E43 /* PBXContainerItemProxy */;
+			targetProxy = 6492141E668BAF98D853D094BBE0750C /* PBXContainerItemProxy */;
+		};
+		B83B6604D4F911D88D6B93B834F1390F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GJTAppLauncher;
+			target = 409F6171F94B4B0582ABF5765E0557BC /* GJTAppLauncher */;
+			targetProxy = AEDD0BEF2BA8D1EF3A6F6672FE55F1E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,6 +511,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1868DE5A9AAEC33718B538D5F52D12A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E210981F7703F9776F658646084BA8B /* GJTAppLauncher.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GJTAppLauncher/GJTAppLauncher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GJTAppLauncher/GJTAppLauncher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/GJTAppLauncher/GJTAppLauncher.modulemap";
+				PRODUCT_MODULE_NAME = GJTAppLauncher;
+				PRODUCT_NAME = GJTAppLauncher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -504,9 +614,9 @@
 			};
 			name = Debug;
 		};
-		2CF2E560DAFD2B075D127D49B5EBB21E /* Release */ = {
+		3590A9E00EE8E0680BDAC809EB37943F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 868640CF00343989323E047B8F26688C /* GJTAppLauncher.release.xcconfig */;
+			baseConfigurationReference = F126DA236A8D212106976B38F9FFF752 /* GJTAppLauncher.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,6 +631,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/GJTAppLauncher/GJTAppLauncher.modulemap";
 				PRODUCT_MODULE_NAME = GJTAppLauncher;
 				PRODUCT_NAME = GJTAppLauncher;
@@ -567,36 +678,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		4F2F9EB2E125449E9FBC523AD2A19BAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D613A49ACCAC6C3C96BFCB9B076EF1AB /* GJTAppLauncher.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GJTAppLauncher/GJTAppLauncher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GJTAppLauncher/GJTAppLauncher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GJTAppLauncher/GJTAppLauncher.modulemap";
-				PRODUCT_MODULE_NAME = GJTAppLauncher;
-				PRODUCT_NAME = GJTAppLauncher;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7A92B33B81058574D183783246DFFB28 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -718,8 +799,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -737,20 +817,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2A2DEE151A4B000D95F080805B966E97 /* Build configuration list for PBXNativeTarget "GJTAppLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868DE5A9AAEC33718B538D5F52D12A0 /* Debug */,
+				3590A9E00EE8E0680BDAC809EB37943F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4FAB8ACF18146D9D045EDBB0315C98B9 /* Build configuration list for PBXNativeTarget "GJTAppLauncher" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4F2F9EB2E125449E9FBC523AD2A19BAF /* Debug */,
-				2CF2E560DAFD2B075D127D49B5EBB21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
