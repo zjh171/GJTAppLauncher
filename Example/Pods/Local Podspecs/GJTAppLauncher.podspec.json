@@ -1,0 +1,22 @@
+{
+  "name": "GJTAppLauncher",
+  "version": "0.1.0",
+  "summary": "A short description of GJTAppLauncher.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zjh171/GJTAppLauncher",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zjh171": "zjh171@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zjh171/GJTAppLauncher.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GJTAppLauncher/Classes/**/*"
+}

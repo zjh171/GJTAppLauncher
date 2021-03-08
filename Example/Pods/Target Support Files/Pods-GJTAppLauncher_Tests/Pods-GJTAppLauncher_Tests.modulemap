@@ -1,0 +1,6 @@
+framework module Pods_GJTAppLauncher_Tests {
+  umbrella header "Pods-GJTAppLauncher_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
