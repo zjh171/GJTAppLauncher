@@ -1,5 +1,5 @@
 PODS:
-  - GJTAppLauncher (0.1.1)
+  - GJTAppLauncher (0.1.2)
 
 DEPENDENCIES:
   - GJTAppLauncher (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GJTAppLauncher: e88cce4c458e55b1e61ca2dbd94e01ee122adc5d
+  GJTAppLauncher: 4448a29d64b3778591a3e123eb8f40dc12052839
 
-PODFILE CHECKSUM: 7a83d111fe86841e8d59e41aa10174daab11ae17
+PODFILE CHECKSUM: 4b58babac08972922fa46710699ef47da183efea
 
 COCOAPODS: 1.10.1

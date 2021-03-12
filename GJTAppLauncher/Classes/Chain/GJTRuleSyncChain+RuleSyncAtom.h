@@ -7,18 +7,18 @@
 
 #import <Foundation/Foundation.h>
 #import "GJTRuleSyncChain.h"
-#import "GJTRuleAtom.h"
+#import "GJTToolMan.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GJTRuleSyncChain(RuleSyncAtom)
 
-@property (nonatomic, strong) GJTRuleAtom *atomsChainHeads;
+@property (nonatomic, strong) GJTToolMan *atomsChainHeads;
 
-@property (nonatomic, strong) GJTRuleAtom *atomsChainTails;
+@property (nonatomic, strong) GJTToolMan *atomsChainTails;
 
 
--(GJTRuleAtom *) generateSyncChainWithAtoms:(NSArray *) syncAtoms handleAtomBlock:(GJTRuleAtomHandleBlock) atomHandleBlock;
+-(GJTToolMan *) generateSyncChainWithAtoms:(NSArray *) syncAtoms handleAtomBlock:(GJTToolManHandleBlock) atomHandleBlock;
 
 
 

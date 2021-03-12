@@ -51,7 +51,7 @@
 }
 
 - (void)runLauncherTask:(NSArray *)headers tails:(NSArray *)tails {
-    self.ruleSyncChain = [GJTRuleSyncChain syncChainWithChainHeaders:headers chainTails:tails handleAtomBlock:^NSException *(GJTRuleAtom *atom) {
+    self.ruleSyncChain = [GJTRuleSyncChain syncChainWithChainHeaders:headers chainTails:tails handleAtomBlock:^NSException *(GJTToolMan *atom) {
         __block NSException *exception = nil;
         
         Class cls = NSClassFromString(atom.className);

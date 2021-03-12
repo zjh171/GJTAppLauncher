@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		495FEF81D2387D0EAD176AF8 /* Pods_GJTAppLauncher_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8280D621D8400AD5364635CA /* Pods_GJTAppLauncher_Example.framework */; };
+		09327A8E227A0D7A77FBAB66 /* libPods-GJTAppLauncher_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEC3A4000B0D49E09DE7CFB /* libPods-GJTAppLauncher_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C1E34E541B4C2E2FF431B82F /* Pods_GJTAppLauncher_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D905C583995300C00D070DD4 /* Pods_GJTAppLauncher_Tests.framework */; };
+		B4E10C35B53A43B94562807B /* libPods-GJTAppLauncher_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28F0E5DE26CEE12EBD6F73E /* libPods-GJTAppLauncher_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CEC3A4000B0D49E09DE7CFB /* libPods-GJTAppLauncher_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GJTAppLauncher_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D956BB772FDF5BD19991192 /* GJTAppLauncher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GJTAppLauncher.podspec; path = ../GJTAppLauncher.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GJTAppLauncher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJTAppLauncher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,12 +61,11 @@
 		693DB7192C406115CA4A79C0 /* Pods-GJTAppLauncher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTAppLauncher_Tests.release.xcconfig"; path = "Target Support Files/Pods-GJTAppLauncher_Tests/Pods-GJTAppLauncher_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		810DEF65FE74A34C5775E2CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8280D621D8400AD5364635CA /* Pods_GJTAppLauncher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJTAppLauncher_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8771DF5AC3E0011CC77584E6 /* Pods-GJTAppLauncher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTAppLauncher_Example.release.xcconfig"; path = "Target Support Files/Pods-GJTAppLauncher_Example/Pods-GJTAppLauncher_Example.release.xcconfig"; sourceTree = "<group>"; };
 		923BB26A26E0880A7901E2D1 /* Pods-GJTAppLauncher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTAppLauncher_Example.debug.xcconfig"; path = "Target Support Files/Pods-GJTAppLauncher_Example/Pods-GJTAppLauncher_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B85C6022BFEE3883E1718125 /* Pods-GJTAppLauncher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTAppLauncher_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GJTAppLauncher_Tests/Pods-GJTAppLauncher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D905C583995300C00D070DD4 /* Pods_GJTAppLauncher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJTAppLauncher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28F0E5DE26CEE12EBD6F73E /* libPods-GJTAppLauncher_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GJTAppLauncher_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7523520CD331E80B3B66A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				495FEF81D2387D0EAD176AF8 /* Pods_GJTAppLauncher_Example.framework in Frameworks */,
+				B4E10C35B53A43B94562807B /* libPods-GJTAppLauncher_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C1E34E541B4C2E2FF431B82F /* Pods_GJTAppLauncher_Tests.framework in Frameworks */,
+				09327A8E227A0D7A77FBAB66 /* libPods-GJTAppLauncher_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8280D621D8400AD5364635CA /* Pods_GJTAppLauncher_Example.framework */,
-				D905C583995300C00D070DD4 /* Pods_GJTAppLauncher_Tests.framework */,
+				E28F0E5DE26CEE12EBD6F73E /* libPods-GJTAppLauncher_Example.a */,
+				2CEC3A4000B0D49E09DE7CFB /* libPods-GJTAppLauncher_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				CBD781C04BD141CF3A8EFB5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,24 +336,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CBD781C04BD141CF3A8EFB5D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GJTAppLauncher_Example/Pods-GJTAppLauncher_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GJTAppLauncher/GJTAppLauncher.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GJTAppLauncher.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GJTAppLauncher_Example/Pods-GJTAppLauncher_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -497,7 +478,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GJTAppLauncher/GJTAppLauncher-Prefix.pch";
 				INFOPLIST_FILE = "GJTAppLauncher/GJTAppLauncher-Info.plist";
-				MACH_O_TYPE = mh_dylib;
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,7 +495,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GJTAppLauncher/GJTAppLauncher-Prefix.pch";
 				INFOPLIST_FILE = "GJTAppLauncher/GJTAppLauncher-Info.plist";
-				MACH_O_TYPE = mh_dylib;
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -10,9 +10,9 @@
 
 #import <Foundation/Foundation.h>
 
-@class GJTRuleAtom;
+@class GJTToolMan;
 
-typedef  NSException* (^GJTRuleAtomHandleBlock)(GJTRuleAtom *atom);
+typedef  NSException* (^GJTToolManHandleBlock)(GJTToolMan *atom);
 
 
 #endif /* GJTRuleSyncChainMacro_h */

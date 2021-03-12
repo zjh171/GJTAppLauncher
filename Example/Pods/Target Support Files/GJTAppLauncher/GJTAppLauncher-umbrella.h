@@ -11,10 +11,10 @@
 #endif
 
 #import "GJTAppLauncherAnnotation.h"
-#import "GJTRuleAtom.h"
 #import "GJTRuleSyncChain+RuleSyncAtom.h"
 #import "GJTRuleSyncChain.h"
 #import "GJTRuleSyncChainMacro.h"
+#import "GJTToolMan.h"
 #import "GJTAppLauncher.h"
 #import "GJTAppHPLauncher.h"
 #import "GJTAppLauncherItems.h"

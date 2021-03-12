@@ -6,8 +6,8 @@
 //
 
 #import "GJTRuleSyncChain+RuleSyncAtom.h"
-#import "GJTRuleAtom.h"
-#import "GJTRuleAtom.h"
+#import "GJTToolMan.h"
+#import "GJTToolMan.h"
 
 
 @implementation GJTRuleSyncChain(RuleSyncAtom)
@@ -16,16 +16,16 @@
 @dynamic atomsChainTails;
 
 
--(GJTRuleAtom *) generateSyncChainWithAtoms:(NSArray *) syncAtoms handleAtomBlock:(GJTRuleAtomHandleBlock) atomHandleBlock{
-    GJTRuleAtom *syncAtomHeader = nil;
-    GJTRuleAtom *endAtom = nil;
+-(GJTToolMan *) generateSyncChainWithAtoms:(NSArray *) syncAtoms handleAtomBlock:(GJTToolManHandleBlock) atomHandleBlock{
+    GJTToolMan *syncAtomHeader = nil;
+    GJTToolMan *endAtom = nil;
     
     for (NSDictionary *atomDictItem in syncAtoms) {
-        GJTRuleAtom *syncAtom = nil;
+        GJTToolMan *syncAtom = nil;
         if ([atomDictItem isKindOfClass:NSDictionary.class]) {
-            syncAtom = [[GJTRuleAtom alloc] initWithParams:atomDictItem];
-        } else if([atomDictItem isKindOfClass:GJTRuleAtom.class]) {
-            syncAtom = (GJTRuleAtom *)atomDictItem;
+            syncAtom = [[GJTToolMan alloc] initWithParams:atomDictItem];
+        } else if([atomDictItem isKindOfClass:GJTToolMan.class]) {
+            syncAtom = (GJTToolMan *)atomDictItem;
         } else {
             NSAssert(0, @"class type is invalid");
         }
@@ -60,13 +60,13 @@
     
     @try {
         if (self.atomsChainHeads.handleBlock) {
-            GJTRuleAtom *handleAtom = self.atomsChainHeads;
+            GJTToolMan *handleAtom = self.atomsChainHeads;
 
             NSException *exception = nil;
             exception = self.atomsChainHeads.handleBlock(handleAtom);
             
             //处理链表
-            GJTRuleAtom *currentAtom = self.atomsChainHeads;
+            GJTToolMan *currentAtom = self.atomsChainHeads;
             self.atomsChainHeads = self.atomsChainHeads.next;
             currentAtom.next = nil;
             currentAtom.handleBlock = nil;
@@ -88,12 +88,12 @@
     
     @try {
         if (self.atomsChainTails.handleBlock) {
-            GJTRuleAtom *handleAtom = self.atomsChainTails;
+            GJTToolMan *handleAtom = self.atomsChainTails;
             NSException *exception = nil;
             exception = self.atomsChainTails.handleBlock(handleAtom);
             
             //处理链表
-            GJTRuleAtom *currentAtom = self.atomsChainTails;
+            GJTToolMan *currentAtom = self.atomsChainTails;
             self.atomsChainTails = self.atomsChainTails.next;
             currentAtom.next = nil;
             currentAtom.handleBlock = nil;

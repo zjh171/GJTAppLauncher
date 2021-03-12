@@ -11,16 +11,16 @@
 
 @interface GJTRuleSyncChain ()
 
-@property (nonatomic, strong) GJTRuleAtom *atomsChainHeads;
+@property (nonatomic, strong) GJTToolMan *atomsChainHeads;
 
-@property (nonatomic, strong) GJTRuleAtom *atomsChainTails;
+@property (nonatomic, strong) GJTToolMan *atomsChainTails;
 
 @end
 
 @implementation GJTRuleSyncChain
 
 
-+(instancetype) syncChainWithChainHeaders:(NSArray *) headeAtoms chainTails:(NSArray *) tailAtoms handleAtomBlock:(GJTRuleAtomHandleBlock) handleBlock {
++(instancetype) syncChainWithChainHeaders:(NSArray *) headeAtoms chainTails:(NSArray *) tailAtoms handleAtomBlock:(GJTToolManHandleBlock) handleBlock {
     GJTRuleSyncChain *chain = [[GJTRuleSyncChain alloc] init];
     
     

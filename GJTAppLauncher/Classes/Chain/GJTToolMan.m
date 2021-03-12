@@ -5,10 +5,10 @@
 //  Created by kyson on 2021/3/6.
 //
 
-#import "GJTRuleAtom.h"
+#import "GJTToolMan.h"
 #import "GJTAppLauncherAnnotation.h"
 
-@implementation GJTRuleAtom
+@implementation GJTToolMan
 
 
 -(instancetype)initWithParams:(NSDictionary *) params {

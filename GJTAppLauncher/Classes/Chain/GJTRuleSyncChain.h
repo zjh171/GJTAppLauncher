@@ -6,13 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GJTRuleAtom.h"
+#import "GJTToolMan.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GJTRuleSyncChain : NSObject
 
-+(instancetype) syncChainWithChainHeaders:(NSArray *) headeAtoms chainTails:(NSArray *) tailAtoms handleAtomBlock:(GJTRuleAtomHandleBlock) handleBlock;
++(instancetype) syncChainWithChainHeaders:(NSArray *) headeAtoms chainTails:(NSArray *) tailAtoms handleAtomBlock:(GJTToolManHandleBlock) handleBlock;
 
 @end
 

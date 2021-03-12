@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GJTRuleAtom : NSObject
+@interface GJTToolMan : NSObject
 
 @property (nonatomic, strong) NSString *className;
 
@@ -18,9 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) BOOL *bMainThread;
 
-@property (nonatomic, strong, nullable) GJTRuleAtom *next;
+@property (nonatomic, strong, nullable) GJTToolMan *next;
 
-@property (nonatomic, copy,nullable) GJTRuleAtomHandleBlock handleBlock;
+@property (nonatomic, copy,nullable) GJTToolManHandleBlock handleBlock;
 
 
 -(instancetype)initWithParams:(NSDictionary *) params;
