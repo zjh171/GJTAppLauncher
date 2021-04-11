@@ -7,12 +7,17 @@
 //
 
 #import "GJTAppDelegate.h"
+#import <GJTAppLauncher/GJTAppLauncher.h>
 
 @implementation GJTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[GJTAppHPLauncher sharedInstance] appLaunchOptions:launchOptions];
+    
+    [[GJTAppHPLauncher sharedInstance] appDidFinishLaunching];
     return YES;
 }
 

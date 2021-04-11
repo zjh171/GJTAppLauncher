@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		965405DF26229FD20036BBA7 /* GJTAppDelegate+Head.m in Sources */ = {isa = PBXBuildFile; fileRef = 965405DE26229FD20036BBA7 /* GJTAppDelegate+Head.m */; };
 		B4E10C35B53A43B94562807B /* libPods-GJTAppLauncher_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28F0E5DE26CEE12EBD6F73E /* libPods-GJTAppLauncher_Example.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8771DF5AC3E0011CC77584E6 /* Pods-GJTAppLauncher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTAppLauncher_Example.release.xcconfig"; path = "Target Support Files/Pods-GJTAppLauncher_Example/Pods-GJTAppLauncher_Example.release.xcconfig"; sourceTree = "<group>"; };
 		923BB26A26E0880A7901E2D1 /* Pods-GJTAppLauncher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTAppLauncher_Example.debug.xcconfig"; path = "Target Support Files/Pods-GJTAppLauncher_Example/Pods-GJTAppLauncher_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		965405DD26229FD20036BBA7 /* GJTAppDelegate+Head.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GJTAppDelegate+Head.h"; sourceTree = "<group>"; };
+		965405DE26229FD20036BBA7 /* GJTAppDelegate+Head.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GJTAppDelegate+Head.m"; sourceTree = "<group>"; };
 		B85C6022BFEE3883E1718125 /* Pods-GJTAppLauncher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTAppLauncher_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GJTAppLauncher_Tests/Pods-GJTAppLauncher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E28F0E5DE26CEE12EBD6F73E /* libPods-GJTAppLauncher_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GJTAppLauncher_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7523520CD331E80B3B66A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				965405DD26229FD20036BBA7 /* GJTAppDelegate+Head.h */,
+				965405DE26229FD20036BBA7 /* GJTAppDelegate+Head.m */,
 			);
 			name = "Example for GJTAppLauncher";
 			path = GJTAppLauncher;
@@ -347,6 +352,7 @@
 			files = (
 				6003F59E195388D20070C39A /* GJTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GJTViewController.m in Sources */,
+				965405DF26229FD20036BBA7 /* GJTAppDelegate+Head.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
